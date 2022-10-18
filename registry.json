@@ -419,14 +419,14 @@
       "url": "https://explorer.aptoslabs.com",
       "txPath": "/txn/",
       "accountPath": "/account/",
-      "sampleTx": "0xedc88058e27f6c065fd6607e262cb2a83a65f74301df90c61923014c59f9d465",
-      "sampleAccount": "0x60ad80e8cdadb81399e8a738014bc9ec865cef842f7c2cf7d84fbf7e40d065"
+      "sampleTx": "91424546",
+      "sampleAccount": "0x6af7d07b8a541913dfa87a9f99628faa255c70241ef9ebd9b82a7e715ee13108"
     },
     "info": {
       "url": "https://aptoslabs.com/",
       "source": "https://github.com/aptos-labs/aptos-core",
-      "rpc": "https://fullnode.mainnet.aptoslabs.com/v1",
-      "documentation": "https://fullnode.mainnet.aptoslabs.com/v1/spec#/"
+      "rpc": "https://fullnode.devnet.aptoslabs.com",
+      "documentation": "https://fullnode.devnet.aptoslabs.com/v1/spec#/"
     }
   },
   {
@@ -1140,6 +1140,35 @@
       "url": "https://kusama.network",
       "source": "https://github.com/paritytech/polkadot",
       "rpc": "wss://kusama-rpc.polkadot.io/",
+      "documentation": "https://polkadot.js.org/api/substrate/rpc.html"
+    }
+  },
+  {
+    "id": "westend",
+    "name": "Westend",
+    "coinId": 433,
+    "symbol": "WND",
+    "decimals": 12,
+    "blockchain": "Westend",
+    "derivation": [
+      {
+        "path": "m/44'/433'/0'/0'/0'"
+      }
+    ],
+    "curve": "ed25519",
+    "publicKeyType": "ed25519",
+    "addressHasher": "keccak256",
+    "explorer": {
+      "url": "https://westend.subscan.io",
+      "txPath": "/extrinsic/",
+      "accountPath": "/account/",
+      "sampleTx": "0x79fa7a693deea5e127c8c581d686fed15dab0629d2aa66c4f1a96483beb41dcc",
+      "sampleAccount": "5CPp7ShyKJwpwxuKJPyDjjQbU69PYieQhkDYFX3RcTDFsh3F"
+    },
+    "info": {
+      "url": "https://polkadot.network",
+      "source": "https://github.com/paritytech/polkadot",
+      "rpc": "wss://westend-rpc.polkadot.io/",
       "documentation": "https://polkadot.js.org/api/substrate/rpc.html"
     }
   },
